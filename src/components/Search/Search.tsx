@@ -1,4 +1,3 @@
-import React from 'react'
 import InputBootstrap from 'react-bootstrap/InputGroup'
 import FormBootstrap from 'react-bootstrap/Form'
 import { ReactComponent as SearchLogo } from './icons/search.svg'
