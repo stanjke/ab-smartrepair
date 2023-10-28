@@ -1,7 +1,15 @@
-import React from 'react'
+import { FC, ReactNode } from 'react'
 import BootstrapForm from 'react-bootstrap/Form'
+import { IMocKFormSortData } from '../Sort/Sort'
 
-const Form = (props) => {
+interface IFromProps {
+    formTitle: string,
+    disabled?: boolean,
+    options?: IMocKFormSortData[],
+    formIcon?: ReactNode
+}
+
+const Form: FC<IFromProps> = (props) => {
 
     const {
         formTitle,
@@ -10,7 +18,7 @@ const Form = (props) => {
         formIcon
     } = props
 
-    const optionsValues = options.map(option => <option key={option.id} value={option.value}>{option.text}</option>)
+    const optionsValues = options?.map(option => <option key={option.id} value={option.value}>{option.text}</option>)
 
     return (
         <>

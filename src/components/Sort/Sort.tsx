@@ -1,4 +1,3 @@
-import React from 'react'
 import Container from '../Container/Container'
 import { ReactComponent as Clock } from './icons/clock.svg'
 import Nav from 'react-bootstrap/Nav';
@@ -8,7 +7,13 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Sort.scss'
 import Form from '../Form/Form';
 
-const mockFormSortData = [
+export interface IMocKFormSortData {
+    text: string,
+    value: string,
+    id: number
+}
+
+const mockFormSortData: IMocKFormSortData[] = [
     {
         text: 'Alle',
         value: 'alle',
