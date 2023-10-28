@@ -11,7 +11,7 @@ const Header: FC = () => {
                 <header className='header'>
                     <div className="header__logo">
                         <a href="http://ab-smartrepair.de/" className="header__link">
-                            <img src="/logo.jpg" alt="ab-smartrepair" className="header__logo" />
+                            <img src="logo.jpg" alt="ab-smartrepair" className="header__logo" />
                         </a>
                     </div>
                     <div className="header__navigate">
