@@ -1,0 +1,23 @@
+{
+    "language": "de_DE",
+    "shop_car_uri": {
+        "customer": "NEUTRAL_VEHICLE_X",
+        "dealer": "NEUTRAL_VEHICLE_X"
+    },
+    "vehicle_uri": "/Angebote",
+    "data_protection_url": "https://www.mobile.de/service/privacyPolicy?lang=de",
+    "company_handle": "",
+    "trade_register": "HRA 9711",
+    "type": "GMBH",
+    "ceo": "Enrico Tetzlaff",
+    "dealer_number": "",
+    "headquarters": "Heidenau",
+    "jurisdiction": "Amtsgericht Dresden",
+    "b2b_website": "",
+    "vat_id": "DE 304565697",
+    "tax": "210/152/21302",
+    "tax_rate": "19",
+    "tax_rate_reduced": "7",
+    "tax_rate_insurance": "19",
+    "currency": "EUR"
+}
