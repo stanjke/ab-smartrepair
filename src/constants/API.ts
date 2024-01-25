@@ -1,0 +1,2 @@
+export const GOOGLE_WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbw2vkbtVCcahfUsH3qa4tnRo4x3dNHIBmP4l6EqbY0hneeemgCIqPN_Q9QFux_AEFwqGQ/exec'
+export const GOOGLE_WEB_DEPLOYMENT_ID = 'AKfycbxZsbdvq2JFuYn-5W0Nu20ajglHWbdgDsMb5jnOxuhp3__1uJ_9igHaXJUpMMB6Zv0iSA'

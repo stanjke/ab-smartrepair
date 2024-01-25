@@ -5,7 +5,8 @@ import { ReactComponent as SearchLogo } from './icons/search.svg'
 import './Search.scss'
 import Container from '../Container/Container'
 
-const Search = () => {
+const Search = ({ actions: { searchHandler } }) => {
+
     return (
         <Container>
             <InputBootstrap className="mb-3">
@@ -15,6 +16,7 @@ const Search = () => {
                     </span>
                 </InputBootstrap.Text>
                 <FormBootstrap.Control
+                    onChange={(e) => searchHandler(e)}
                     placeholder="Search"
                     aria-label="Search"
                     aria-describedby="basic-addon1"

@@ -359,7 +359,7 @@
             "eaerRangeInTown": null
         },
         "wltp": {
-            "consumptionAverage": null,
+            "consumptionAverage": null
         },
         "emissionStandard": "EURO6",
         "emissionBadge": "GREEN",
@@ -601,7 +601,7 @@
             "CAR"
         ],
         "categories": [
-            "CAR\u001eLIMOUSINE"
+            "CAR\\u001eLIMOUSINE"
         ],
         "priceConsumer": 26850,
         "priceConsumerNet": 26850,
@@ -1174,7 +1174,7 @@
             "CAR"
         ],
         "categories": [
-            "CAR\u001eLIMOUSINE"
+            "CAR\\u001eLIMOUSINE"
         ],
         "priceConsumer": 22989.999999999476,
         "priceConsumerNet": 19319.327731092,

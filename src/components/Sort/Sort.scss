@@ -2,6 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
+
+  .result__info {
+    display: inline;
+    padding-right: 20px;
+    vertical-align: middle;
+  }
 
   .content__sort-bar {
     display: flex;

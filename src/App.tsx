@@ -1,20 +1,25 @@
+import { useEffect, useState } from 'react'
 import Header from './components/Header/Header'
-import Filter from './components/Filter/Filter'
+import PreviewSection from './components/PreviewSection/PreviewSection';
+// import { useFetchDataQuery } from './store/serverResponse/googleWebAppApi';
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
-import Search from './components/Search/Search';
-import Sort from './components/Sort/Sort';
+
+
 
 function App() {
 
+
+  // const { data: carsData } = useFetchDataQuery();
+
+  // console.log('GOOGLE_SHEET_RESPONSE: ', carsData);
   return (
     <>
       <Header />
       <main>
-        <Filter />
-        <Search />
-        <Sort />
+        <PreviewSection />
       </main>
     </>
   )
