@@ -1,11 +1,12 @@
 import Container from "../Container/Container";
 import { ReactComponent as Clock } from "./icons/clock.svg";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-
 import "./Sort.scss";
 import DropDown from "../DropDown/DropDown";
+import { useDispatch, useSelector } from "react-redux";
+import { filteredCarsSelector } from "../../store/selectors/carsSelectors";
+import { SortTitle, sortingOptionTranslations } from "../../constants/constants";
+import { setSortAction } from "../../store/sort/sortSlice";
+import { convertToComplexObject } from "../../helpers/convertToComplexObject";
 
 export interface IMocKFormSortData {
   text: string;
@@ -13,30 +14,14 @@ export interface IMocKFormSortData {
   id: number;
 }
 
-const mockFormSortData: IMocKFormSortData[] = [
-  {
-    text: "Alle",
-    value: "alle",
-    id: 0,
-  },
-  {
-    text: "Sofort verfügbar",
-    value: "sort1",
-    id: 1,
-  },
-  {
-    text: "auf Lager inkl. 10 Tage Vorlauf",
-    value: "sort2",
-    id: 2,
-  },
-  {
-    text: "ab 10 Tage Vorlauf",
-    value: "sort3",
-    id: 3,
-  },
-];
-
 const Sort = () => {
+  const dispatch = useDispatch();
+  const handleSetSort = (e) => {
+    dispatch(setSortAction(e.target.value));
+  };
+
+  const filteredCars = useSelector(filteredCarsSelector);
+
   return (
     <Container>
       <section className="sort">
@@ -44,11 +29,11 @@ const Sort = () => {
           <div className="content__result">
             <h4 className="result__info">
               Treffer:
-              <span className="result__count">5</span>
+              <span className="result__count">{filteredCars.length}</span>
             </h4>
           </div>
           <div className="content__sort-bar">
-            <DropDown formTitle={"Verfügbarkeit"} options={mockFormSortData} formIcon={<Clock />} isComplex />
+            <DropDown formTitle={SortTitle.TITLE} options={convertToComplexObject(sortingOptionTranslations)} formIcon={<Clock />} onChange={handleSetSort} isComplex />
           </div>
         </div>
       </section>

@@ -1,0 +1,39 @@
+.label {
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 1.2;
+  border-radius: 4px;
+
+  &--default {
+    color: $secFontColor;
+    background-color: $DarkBG;
+  }
+
+  &--success {
+    color: $LabelSuccessColor;
+    background-color: $LabelSuccessBGColor;
+  }
+
+  &--primary {
+    color: $LabelPrimaryColor;
+    background-color: $LabelPrimaryBGColor;
+  }
+
+  &--warning {
+    color: $LabelWarningColor;
+    background-color: $LabelWarningBGColor;
+  }
+
+  &--small {
+    padding: 4px 8px;
+    font-size: 0.6rem;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+
+  &--large {
+    padding: 8px;
+    font-size: 0.7rem;
+  }
+}

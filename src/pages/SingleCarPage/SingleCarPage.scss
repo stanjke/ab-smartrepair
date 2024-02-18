@@ -1,0 +1,105 @@
+.car-page {
+  &__nav-btn {
+    color: $accentDarkGray;
+    background-color: transparent;
+    border: 1px solid $accentOrange;
+
+    &--orange {
+      fill: $accentOrange;
+    }
+  }
+
+  &__car-info {
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__car-info-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+
+    &__manufacturer {
+      font-weight: 500;
+      font-size: 20px;
+      color: $accentOrange;
+      margin-right: 5px;
+      text-transform: capitalize;
+    }
+  }
+
+  &__content-detail-info {
+    width: 100%;
+  }
+
+  &__content-vehicle-status {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  &__content-abvailability {
+    text-transform: capitalize;
+    color: $green;
+    margin-bottom: 10px;
+  }
+
+  &__content-price-wrap {
+    padding: 30px 10px 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: $mainText;
+    background-color: $accentDarkGray;
+
+    &__price {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+
+    &__taxes {
+      font-size: 12px;
+      font-weight: 300;
+    }
+  }
+
+  &__content-tel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: $mainGray;
+    background-color: $accentOrange;
+
+    &__text {
+      margin-left: 10px;
+    }
+  }
+
+  &__detail-info-list {
+  }
+
+  &__detail-info-item {
+    padding: 10px;
+
+    &:nth-child(2n - 1) {
+      background-color: lightgray;
+    }
+  }
+
+  &__equipment-btn-wrap {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border-bottom: 1px solid $accentOrange;
+  }
+}
+
+.fill-gray {
+  fill: $mainGray;
+}

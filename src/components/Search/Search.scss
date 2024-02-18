@@ -1,0 +1,16 @@
+.search {
+  &__input {
+    position: relative;
+  }
+
+  &__label-wrapper {
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: flex;
+    gap: 5px;
+    margin-right: 5px;
+  }
+}

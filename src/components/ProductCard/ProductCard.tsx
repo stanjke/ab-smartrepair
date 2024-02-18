@@ -1,111 +1,81 @@
 import { ICar } from "../../types/types";
 import { FC } from "react";
+import { Link } from "react-router-dom";
+import { translateDeliveryStatus } from "../../helpers/translators/translateDeliveryStatus";
+import { translateVehicleStatus } from "../../helpers/translators/translateVehicleStatus";
+import { convertKwToHp } from "../../helpers/convertKwToHp";
 import "./ProductCard.scss";
-
-const log = console.log;
+import { calculateNetPrice } from "../../helpers/calculateNetPrice";
+import { CURRENCY_SYMBOL, TAXATION_NAME, TAX_RATE } from "../../constants/constants";
+import { decorator } from "../../helpers/decorator/decorator";
 
 interface IProductCardProps {
   car: ICar;
 }
 
-// export interface ICar {
-//     id: string
-//     vin: string
-//     innerNumber: string
-//     hsn: string
-//     tsn: string
-//     modelKey: string
-//     manufacturerName: string
-//     state: string
-//     delivery: string
-//     registration: string
-//     title: string
-//     enginePower: number
-//     engineType: string
-//     mileage: number
-//     gearboxType: string
-//     exteriorColorName: string
-//     previousPrice: number
-//     currentPrice: number
-//     nefz: Nefz
-//     wltp: Wltp
-//     modelName: string
-//     images: string[]
-// }
-
-// export interface Nefz {
-//     consumptionElectricity: number
-//     eaerRangeCombined: number
-//     eaerRangeInTown: number
-// }
-
-// export interface Wltp {
-//     consumptionAverage: number
-// }
-
-const kwToHpHandler = (kilowatts: number): number => {
-  const conversationFactor: number = 1.3596;
-  const horsePower: number = Math.round(kilowatts * conversationFactor);
-  return horsePower;
-};
-
 const ProductCard: FC<IProductCardProps> = ({ car }) => {
   const carImages = car.images.split(",");
-  const imagePath = `../../../images/${car.id}/` + carImages[0];
+
   return (
-    <div className="card">
-      <div className="card__image-wrapper">
-        <img className="card__img" src={imagePath} alt="" />
-      </div>
-      <div className="card__content px-2">
-        <p className="card__info">
-          {`AB-SmartRepair | ${car.state} | ${car.innerNumber} | `}
-          <span className="card__info-green">{car.delivery}</span>
-        </p>
-        <h3 className="card__manufacture">{`${car.manufacturerName} ${car.modelName}`}</h3>
-        <h5 className="card_title">{car.title}</h5>
-        <div className="card__sub-content">
-          <ul className="sub-content__list">
-            <li className="sub-content__item">
-              <p className="sub-content__description">
-                <span>Erstzulassung: </span>
-                {car.registration}
-              </p>
-            </li>
-            <li className="sub-content__item">
-              <p className="sub-content__description">
-                <span>Motor: </span>
-                {`${car.enginePower} kW (${kwToHpHandler(car.enginePower)})`}
-              </p>
-            </li>
-            <li className="sub-content__item">
-              <p className="sub-content__description">
-                <span>Kraftstoff: </span>
-                {car.engineType}
-              </p>
-            </li>
-            <li className="sub-content__item">
-              <p className="sub-content__description">
-                <span>Laufleistung: </span>
-                {car.mileage} km
-              </p>
-            </li>
-            <li className="sub-content__item">
-              <p className="sub-content__description">
-                <span>Getriebe: </span>
-                {car.gearboxType}
-              </p>
-            </li>
-            <li className="sub-content__item">
-              <p className="sub-content__description">
-                <span>Farbe: </span>
-                {car.exteriorColorName}
-              </p>
-            </li>
-          </ul>
+    <article className="car-card">
+      <Link className="car-card__link" to={`car/${car.id}`}>
+        <div className="car-card__image-wrapper">
+          <img className="car-card__img" src={carImages[0]} alt="" />
         </div>
-      </div>
-    </div>
+        <section className="car-card__details">
+          <div className="car-card__content">
+            <h2 className="car-card__manufacturer">{`${car.manufacturerName} ${car.modelName}`}</h2>
+            <p className="car-card__title">{car.title}</p>
+            <h3 className="car-card__info">
+              {`AB-SmartRepair | ${translateVehicleStatus(car.state)} | ${car.innerNumber} | `}
+              <span className="car-card__info-delivery--green">{translateDeliveryStatus(car.delivery)}</span>
+            </h3>
+            <ul className="car-card__list">
+              <li className="car-card__item">
+                <p className="car-card__item-description">
+                  <span className="car-card__item-title">Erstzulassung: </span>
+                  {decorator.date(car.registration)}
+                </p>
+              </li>
+              <li className="car-card__item">
+                <p className="car-card__item-description">
+                  <span className="car-card__item-title">Motor: </span>
+                  {`${car.enginePower} kW (${convertKwToHp(car.enginePower)} PS)`}
+                </p>
+              </li>
+              <li className="car-card__item">
+                <p className="car-card__item-description">
+                  <span className="car-card__item-title">Kraftstoff: </span>
+                  {car.engineType}
+                </p>
+              </li>
+              <li className="car-card__item">
+                <p className="car-card__item-description">
+                  <span className="car-card__item-title">Laufleistung: </span>
+                  {decorator.mileage(car.mileage)} km
+                </p>
+              </li>
+              <li className="car-card__item">
+                <p className="car-card__item-description">
+                  <span className="car-card__item-title">Getriebe: </span>
+                  {car.gearboxType}
+                </p>
+              </li>
+              <li className="car-card__item">
+                <p className="car-card__item-description">
+                  <span className="car-card__item-title">Farbe: </span>
+                  {car.exteriorColorName}
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div className="car-card__price-wrap">
+            <p className="car-card__price">{`${decorator.price(car.currentPrice)} ${CURRENCY_SYMBOL}`}</p>
+            <p className="car-card__price-tax">{`${calculateNetPrice(car.currentPrice)}, ${TAX_RATE}% ${TAXATION_NAME}.`}</p>
+          </div>
+        </section>
+      </Link>
+    </article>
   );
 };
 
