@@ -10,7 +10,7 @@ const searchSelector = (state: RootState) => state.search;
 export const filteredCarsSelector = createSelector([carsSelector, filtersSelector, sortSelector, searchSelector], ({ cars }, { filterParams }, { sort }, { searchQuery }) => {
   let filteredCars = cars.filter((car) => {
     const registrationYear = new Date(car.registration).getFullYear().toString();
-    const activePriceRange = Number(filterParams.price);
+    // const activePriceRange = Number(filterParams.price);
 
     const matchesFilters =
       (!filterParams.manufacture || car.manufacturerName === filterParams.manufacture) &&
