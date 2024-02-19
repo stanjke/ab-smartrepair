@@ -4,7 +4,6 @@ import svgr from "vite-plugin-svgr";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/ab-smartrepair/",
   plugins: [react(), svgr()],
   css: {
     preprocessorOptions: {

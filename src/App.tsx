@@ -16,8 +16,8 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/ab-smartrepair/" element={<ShopPage />} />
-        <Route path="/ab-smartrepair/car/:carID" element={<SingleCarPage />} />
+        <Route path="/" element={<ShopPage />} />
+        <Route path="car/:carID" element={<SingleCarPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
