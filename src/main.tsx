@@ -10,7 +10,7 @@ import { StrictMode } from "react";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/ab-smartrepair/">
         <App />
       </BrowserRouter>
     </Provider>
