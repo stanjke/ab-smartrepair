@@ -1,7 +1,7 @@
 import { ICar } from "../types/types";
 import interpolatePriceRange from "./interpolatePriceRange";
 
-const getPriceRange = (arr: ICar) => {
+const getPriceRange = (arr: ICar[]) => {
   const arrCopy = [...arr];
   const sortedArr = arrCopy?.sort((a, b) => a.currentPrice - b.currentPrice);
   const minMaxPriceRange = [sortedArr[0].currentPrice, sortedArr[sortedArr.length - 1].currentPrice];

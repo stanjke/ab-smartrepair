@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { IconProps } from "../../../types/types";
 
 const ArrowRight: FC<IconProps> = ({ viewBox = "0 0 24 24", width = "30", height = "30", className }) => {

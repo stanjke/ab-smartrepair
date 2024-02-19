@@ -1,3 +1,4 @@
+import { ChangeEvent } from "react";
 import Container from "../Container/Container";
 import { ReactComponent as Clock } from "./icons/clock.svg";
 import "./Sort.scss";
@@ -16,8 +17,8 @@ export interface IMocKFormSortData {
 
 const Sort = () => {
   const dispatch = useDispatch();
-  const handleSetSort = (e) => {
-    dispatch(setSortAction(e.target.value));
+  const handleSetSort = (event: ChangeEvent<HTMLSelectElement>) => {
+    dispatch(setSortAction(event.target.value));
   };
 
   const filteredCars = useSelector(filteredCarsSelector);

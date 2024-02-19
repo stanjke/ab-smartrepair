@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useRef } from "react";
+import { FC } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";

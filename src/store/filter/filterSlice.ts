@@ -2,15 +2,17 @@ import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 import { FilterParam } from "../../constants/constants";
 import { ICar } from "../../types/types";
 
+export interface FilterParams {
+  manufacture: string;
+  model: string;
+  engineType: string;
+  gearType: string;
+  price: string;
+  registration: string;
+}
+
 interface InitialState {
-  filterParams: {
-    manufacture: string;
-    model: string;
-    engineType: string;
-    gearType: string;
-    price: string;
-    registration: string;
-  };
+  filterParams: FilterParams;
   filteredCars: ICar[];
 }
 
@@ -72,12 +74,12 @@ const filterSlice = createSlice({
         filterParams.model = payload;
       }
     },
-    clearFilterField: ({ filterParams }, { payload }: PayloadAction<keyof InitialState>) => {
-      filterParams[payload] = initialState.filterParams[payload];
+    clearFilterField: (state, { payload }: PayloadAction<keyof FilterParams>) => {
+      state.filterParams[payload] = initialState.filterParams[payload];
     },
-    setFilteredCars: ({ filteredCars }, { payload }) => {
+    setFilteredCars: (state, { payload }) => {
       console.log("PAYLOAD: ", payload);
-      filteredCars = payload;
+      state.filterParams = payload;
     },
   },
 });

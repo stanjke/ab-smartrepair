@@ -41,7 +41,7 @@ export interface IPriceRange {
 export interface IYearRange {
   id: number;
   text: string;
-  value: number | unknown;
+  value: number;
 }
 
 export interface IconProps {

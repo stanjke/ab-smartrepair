@@ -1,51 +1,48 @@
-import { FC, ReactNode } from "react";
+import { FC, ReactNode, ChangeEvent } from "react";
 import BootstrapForm from "react-bootstrap/Form";
 import { IMocKFormSortData } from "../Sort/Sort";
-import { FilterOptionId } from "../../constants/constants";
+import { IPriceRange, IYearRange } from "../../types/types";
+import { ConvertedComplexObject } from "../../helpers/convertToComplexObject";
 
 interface IFromProps {
   className?: string;
   formTitle: string;
   disabled?: boolean;
-  options?: IMocKFormSortData[] | string[];
+  options?: IMocKFormSortData[] | string[] | IPriceRange[] | IYearRange[] | ConvertedComplexObject[];
   formIcon?: ReactNode;
   isComplex?: boolean;
-  onChange?: () => void;
+  onChange?: (event: ChangeEvent<HTMLSelectElement>) => void;
 }
 
 const DropDown: FC<IFromProps> = (props) => {
-  const { formTitle, disabled = false, options, formIcon, className, isComplex = false, onChange } = props;
+  const { formTitle, options, formIcon, className, onChange, isComplex = false, disabled = false } = props;
+
+  let optionValues;
 
   if (isComplex) {
-    const optionsValues = options?.map((option) => (
-      <option key={option.id} value={option.value} onChange={onChange}>
-        {option.text}
-      </option>
-    ));
-
-    return (
-      <>
-        <BootstrapForm.Text>{formIcon}</BootstrapForm.Text>
-        <BootstrapForm.Select className={className} aria-label="Default select example" disabled={disabled} onChange={onChange}>
-          <option>{formTitle}</option>
-          {optionsValues}
-        </BootstrapForm.Select>
-      </>
+    optionValues = options?.map((option) =>
+      typeof option === "string" ? null : (
+        <option key={option.id} value={option.value}>
+          {option.text}
+        </option>
+      )
+    );
+  } else {
+    optionValues = options?.map((option) =>
+      typeof option !== "string" ? null : (
+        <option key={option} value={option}>
+          {option}
+        </option>
+      )
     );
   }
-
-  const optionsValues = options?.map((option) => (
-    <option key={option} value={option}>
-      {option}
-    </option>
-  ));
 
   return (
     <>
       <BootstrapForm.Text>{formIcon}</BootstrapForm.Text>
       <BootstrapForm.Select className={className} aria-label="Default select example" disabled={disabled} onChange={onChange}>
         <option>{formTitle}</option>
-        {optionsValues}
+        {optionValues}
       </BootstrapForm.Select>
     </>
   );

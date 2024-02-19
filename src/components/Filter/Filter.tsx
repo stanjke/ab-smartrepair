@@ -1,4 +1,4 @@
-import { ChangeEventHandler } from "react";
+import { ChangeEvent } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Container from "../Container/Container";
 import DropDown from "../DropDown/DropDown";
@@ -7,29 +7,29 @@ import { setEngineTypeAction, setGearTypeAction, setManufactureAction, setModelA
 
 import "./Filter.scss";
 import { Row, Col } from "react-bootstrap";
-import { FilterOptionId, FilterParam } from "../../constants/constants";
+import { FilterParam } from "../../constants/constants";
 
 const Filter = () => {
   const { engineType, gearType, manufacture, model, price, registration } = useSelector((state: RootState) => state.filterOptions);
 
   const dispatch = useDispatch();
 
-  const handleManufacture = (e: ChangeEventHandler<HTMLSelectElement>) => {
+  const handleManufacture = (e: ChangeEvent<HTMLSelectElement>) => {
     dispatch(setManufactureAction(e.target.value));
   };
-  const handleModel = (e: ChangeEventHandler<HTMLSelectElement>) => {
+  const handleModel = (e: ChangeEvent<HTMLSelectElement>) => {
     dispatch(setModelAction(e.target.value));
   };
-  const handleEngineType = (e: ChangeEventHandler<HTMLSelectElement>) => {
+  const handleEngineType = (e: ChangeEvent<HTMLSelectElement>) => {
     dispatch(setEngineTypeAction(e.target.value));
   };
-  const handleGearType = (e: ChangeEventHandler<HTMLSelectElement>) => {
+  const handleGearType = (e: ChangeEvent<HTMLSelectElement>) => {
     dispatch(setGearTypeAction(e.target.value));
   };
-  const handlePrice = (e: ChangeEventHandler<HTMLSelectElement>) => {
+  const handlePrice = (e: ChangeEvent<HTMLSelectElement>) => {
     dispatch(setPriceAction(e.target.value));
   };
-  const handleRegistration = (e: ChangeEventHandler<HTMLSelectElement>) => {
+  const handleRegistration = (e: ChangeEvent<HTMLSelectElement>) => {
     dispatch(setRegistrationAction(e.target.value));
   };
 

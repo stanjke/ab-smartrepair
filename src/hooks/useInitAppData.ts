@@ -31,7 +31,7 @@ export const useInitAppData = () => {
 
       const uniqRegistrationArr = [...new Set(AllCars?.map((car: ICar): number => getFullYear(car["registration"])))];
 
-      filterOptionsMap.registration = uniqRegistrationArr?.map((breakpoint, index) => ({ id: index + 1, text: `ab ${breakpoint}`, value: breakpoint }));
+      filterOptionsMap.registration = uniqRegistrationArr?.map((breakpoint, index) => ({ id: index + 1, text: `ab ${breakpoint}`, value: breakpoint as number }));
 
       dispatch(addOptionsAction(filterOptionsMap));
       dispatch(addCarsAction(AllCars));
