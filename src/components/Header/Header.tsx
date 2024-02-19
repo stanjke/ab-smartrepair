@@ -30,9 +30,12 @@ const Header: FC = () => {
           </Container>
         </div>
         <div className="header__logo">
-          <a href="http://ab-smartrepair.de/" className="header__link">
+          <Link to="/" className="header__link">
             <img src="logo.png" alt="ab-smartrepair" className="header__logo" />
-          </a>
+          </Link>
+          {/* <a href="http://ab-smartrepair.de/" className="header__link">
+            <img src="logo.png" alt="ab-smartrepair" className="header__logo" />
+          </a> */}
         </div>
       </header>
     </>
