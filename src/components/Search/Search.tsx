@@ -18,8 +18,17 @@ const Search: FC = () => {
   const filters = useSelector((state: RootState) => state.filter.filterParams);
 
   const handleLabelClick = (event: MouseEvent<HTMLSpanElement>) => {
-    const filterCategory = (event.target as HTMLSpanElement).id as keyof FilterParams;
-    dispatch(clearFilterFieldAction(filterCategory));
+    const target = event.target as HTMLElement;
+    if (target.classList.contains("label__icon")) {
+      const label = target.closest(".label");
+      if (label) {
+        const filterCategory = (label as HTMLSpanElement).id as keyof FilterParams;
+        dispatch(clearFilterFieldAction(filterCategory));
+      }
+    } else {
+      const filterCategory = (event.target as HTMLSpanElement).id as keyof FilterParams;
+      dispatch(clearFilterFieldAction(filterCategory));
+    }
   };
 
   const handleInputSearch = (event: ChangeEvent<HTMLInputElement>) => {
@@ -30,7 +39,7 @@ const Search: FC = () => {
   useEffect(() => {
     const newState = Object.entries(filters)
       .filter(([, value]) => value !== "")
-      .map(([key, value]) => <Label onClick={handleLabelClick} id={key} text={value} key={key} size={LabelSize.LARGE} theme={LabelTheme.SUCCESS} />);
+      .map(([key, value]) => <Label onClick={handleLabelClick} id={key} text={value} key={key} size={LabelSize.LARGE} theme={LabelTheme.PRIMARY} />);
     setLabel(newState);
   }, [filters]);
 
