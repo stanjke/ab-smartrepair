@@ -1,16 +1,49 @@
+@import "./components/EquipmentSection/EquipmentSection.scss";
+
 .car-page {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav-arrow-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  &__nav-contact-icon {
+    width: 20px;
+    height: 20px;
+    fill: $accentOrange;
+  }
+
+  &__nav-link {
+    text-decoration: none;
+  }
+
   &__nav-btn {
+    display: flex;
+    align-items: center;
     color: $accentDarkGray;
     background-color: transparent;
     border: 1px solid $accentOrange;
+    padding: 5px;
 
+    &__text {
+      display: none;
+      @include mq("tablet") {
+        display: inline-block;
+        margin-left: 5px;
+      }
+    }
     &--orange {
       fill: $accentOrange;
     }
   }
 
   &__car-info {
-    margin-top: 20px;
+    margin-top: $marginBetweenSections;
     align-items: center;
     text-align: center;
     display: flex;
@@ -19,7 +52,7 @@
 
   &__car-info-title {
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: $marginBetweenSections;
 
     &__manufacturer {
       font-weight: 500;
@@ -31,6 +64,7 @@
   }
 
   &__content-detail-info {
+    margin-top: 20px;
     width: 100%;
   }
 
@@ -76,30 +110,154 @@
     color: $mainGray;
     background-color: $accentOrange;
 
+    @include mq("tablet") {
+      width: 50%;
+    }
+
     &__text {
       margin-left: 10px;
     }
   }
 
-  &__detail-info-list {
+  &__detail-info {
+    &-list {
+      &-wrapper {
+        @include mq("tablet") {
+          display: flex;
+          gap: 10px;
+        }
+      }
+
+      &--first {
+        @include mq("tablet") {
+          width: 100%;
+        }
+      }
+
+      &--second {
+        @include mq("tablet") {
+          width: 100%;
+        }
+      }
+    }
   }
 
   &__detail-info-item {
     padding: 10px;
+    text-align: start;
 
     &:nth-child(2n - 1) {
       background-color: lightgray;
     }
   }
 
-  &__equipment-btn-wrap {
-    display: flex;
-    justify-content: center;
-    background-color: transparent;
-    border-bottom: 1px solid $accentOrange;
+  &__equipment {
+    &-wrapper {
+      &--hidden {
+        display: none;
+      }
+    }
+
+    &-btn-wrap {
+      display: flex;
+      justify-content: center;
+      background-color: transparent;
+      border-bottom: 1px solid $accentOrange;
+    }
+
+    &-btn {
+      background-color: $accentOrange;
+      color: $mainText;
+
+      &__icon {
+        fill: $mainText;
+
+        &--down {
+          transform: rotate(180deg);
+        }
+      }
+      &__text {
+        margin-left: 5px;
+      }
+    }
+  }
+
+  &__additional-about-wrapper {
+    @include mq("tablet") {
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 20px;
+    }
+  }
+
+  &__additional {
+    margin-top: $marginBetweenSections;
+
+    @include mq("tablet") {
+      width: 100%;
+    }
+
+    &-title {
+      margin-bottom: $marginBetweenSections;
+      color: $accentOrange;
+      font-weight: map-get($sectionTitle, fontWeight);
+      font-size: map-get($sectionTitle, fontSize);
+    }
+
+    &-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+
+      &:nth-child(2n) {
+        background-color: $secondaryLightGray;
+      }
+    }
+
+    &-prop {
+      width: 100%;
+      font-weight: 500;
+    }
+
+    &-val {
+      width: 100%;
+    }
+  }
+
+  &__about {
+    margin-top: $marginBetweenSections;
+
+    @include mq("tablet") {
+      width: 100%;
+    }
+
+    &-title {
+      margin-bottom: $marginBetweenSections;
+      color: $accentOrange;
+      font-weight: map-get($sectionTitle, fontWeight);
+      font-size: map-get($sectionTitle, fontSize);
+    }
+
+    &-description {
+      margin-bottom: 10px;
+      font-weight: 500;
+      font-size: 18px;
+    }
+
+    &-list {
+      list-style: inside;
+    }
   }
 }
 
 .fill-gray {
   fill: $mainGray;
+}
+
+.fill-white {
+  fill: $mainText;
+}
+
+.fill-orange {
+  fill: $accentOrange;
 }

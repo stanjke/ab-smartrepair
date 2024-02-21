@@ -1,0 +1,25 @@
+@import "../EquipmentItem/EquipmentItem.scss";
+
+.car-page__equipment {
+  &-section {
+    margin: $marginBetweenSections 0;
+  }
+
+  &-title {
+    padding: 5px 0;
+    font-weight: 600;
+    border-bottom: 2px solid $borderSection;
+  }
+
+  &-list {
+    @include mq("tablet") {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 20px;
+    }
+
+    @include mq("desktop") {
+      column-gap: 10px;
+    }
+  }
+}

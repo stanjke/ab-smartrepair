@@ -1,0 +1,1191 @@
+[
+    {
+        "id": "23001",
+        "vin": "TMBEK6NWXN3065217",
+        "innerNumber": "ABS-48",
+        "hsn": "8004",
+        "tsn": "AUB",
+        "modelKey": "NW17KD",
+        "manufacturer": {
+            "audaris_id": "5a5365184b464d30d42804a6"
+        },
+        "model": {
+            "audaris_id": "5cc93f42b93e56500a21d4b5"
+        },
+        "sourceCountry": null,
+        "modelYear": null,
+        "construction": null,
+        "manufacturerName": "Skoda",
+        "modelName": "Scala",
+        "isInStock": true,
+        "reservedUntil": null,
+        "usageState": "USED",
+        "usageTypes": [
+            "EUIMPORT"
+        ],
+        "vatMode": "DIFFERENTIAL",
+        "numberOfOwners": 2,
+        "mileage": 19871,
+        "isRegistered": true,
+        "registration": "2022-02-17",
+        "hasNewInspection": false,
+        "oldInspectionValidUntil": "2025-02-01",
+        "hasWarranty": false,
+        "warrantySeal": null,
+        "isDamaged": false,
+        "title": "Monte Carlo 1.5TSI DSG*LED*PANO*TOP OPTIK",
+        "description": {
+            "multiMedia": "Bordcomputer, Radio, DAB Receiver, Soundsystem, Freisprecheinrichtung, Bluetooth, USB Anschluss, Android Auto, Apple Car Play, Touchscreen, Sprachsteuerung, Multifunktionsanzeige, MP3-Schnittstelle, Gruppe Multimedia und Kommunikation.",
+            "security": "ABS, ESP, stability control, ASC (traction control), ASR (traction control), power steering, automatic start/stop system, light sensor, rain sensor, interior and exterior mirrors can be automatically dimmed, hill start assistant, emergency brake assistant (FA), lane keeping assistant, blind spot assistant, lane change assistant , fatigue warning, emergency call system, brake assistant (EBS), cruise control, speedometerLimitation system, electric immobilizer, driving profile selection (Drive Mode Select), rear parking aid, front parking aid, parking aid camera, driver/passenger airbag, driver airbag, passenger airbag can be switched off, front passenger airbag, side airbags, head airbags, surroundings monitoring system (front Assist). ",
+            "interior": "Central locking with radio, keyless entry, keyless go , coming home function, leaving home function, electrically adjustable exterior mirrors, heated exterior mirrors, manual folding exterior mirrors, electric windows, ambient lighting, upholstery fabric, heated front seats, sports seats, height-adjustable front seats , driver lumbar support, center armrest, ISOFIX on the passenger seat, child seat preparation (ISOFIX), divisible rear seat, 5 headrests, rear roller blind, cabin filter, leather gearshift lever, decorative strips, sports steering wheel, multifunction steering wheel, leather steering wheel, height-adjustable steering wheel, shift paddles on the steering wheel, 2-zone automatic climate control. ",
+            "extras": "Sports package, panoramic roof , colored glazing, darkened side/rear window, tailgate, heated rear window, through-loading option, roof spoiler, metallic, pearl effect, sports suspension, LM rims, summer tires, tire pressure control, automatic locking differential, LED daytime running lights, LED headlights, cornering/turning lights , fog lights, warranty, full service history, non-smoking vehicle, LED taillights. "
+        },
+        "interiorType": "FABRIC",
+        "interiorColorCode": "BLACK",
+        "interiorColorName": "Monte Carlo, Dachhimmel Schwarz",
+        "exteriorMetallic": true,
+        "exteriorPearlEffect": true,
+        "exteriorColorCode": "BLACK",
+        "exteriorColorName": "Schwarz-Magic Perleffekt",
+        "equipment": [
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4ccd"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cca"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d8a"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d01"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d1a"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d14"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d7b"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d91"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d90"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d8b"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4da3"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4caf"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cf2"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cb7"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4ce7"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cf1"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cb0"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d16"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d1c"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d00"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cf6"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d3d"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d94"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d97"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d95"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d98"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d93"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4db3"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d51"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4ce6"
+            },
+            {
+                "audaris_id": "5d38508ab93e561fa1379276"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4ce8"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d88"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d21"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d20"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d22"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cb9"
+            },
+            {
+                "audaris_id": "5ed6683ab93e564ef71edb16"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d83"
+            },
+            {
+                "audaris_id": "5ed668eab93e564eea3a9670"
+            },
+            {
+                "audaris_id": "5ed66942b93e564ef71edb4e"
+            },
+            {
+                "audaris_id": "5ed6697db93e561f563f848a"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cb4"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d89"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cfe"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d77"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d78"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cd4"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cfc"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d2b"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cd3"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4dae"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cdf"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4ce5"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d04"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d3f"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d33"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d11"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cf8"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cf9"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d2e"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d44"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4ccb"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cff"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d53"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d2a"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d4b"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d13"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d03"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d28"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d29"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d3b"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4da7"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d18"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d15"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cfd"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d3c"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d85"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d6f"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d2f"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d76"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cf3"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cc4"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cc7"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d17"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d9a"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d0b"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cf0"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d1d"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4ce9"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cb2"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4ce3"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d63"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d12"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d1f"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d7f"
+            },
+            {
+                "audaris_id": "60af9313749eed78c12f2299"
+            }
+        ],
+        "weightEmpty": 1264,
+        "engineType": "PETROL_E10",
+        "enginePower": 110,
+        "electricEnginePower": null,
+        "numberOfCylinders": 4,
+        "engineSize": 1498,
+        "isPluginHybrid": false,
+        "hybridType": null,
+        "hasRangeExtender": false,
+        "adBlue": false,
+        "battery": null,
+        "numberOfGears": 7,
+        "gearboxType": "AUTOMATIC",
+        "nefz": {
+            "consumptionElectricity": null,
+            "eaerRangeCombined": null,
+            "eaerRangeInTown": null
+        },
+        "wltp": {
+            "consumptionAverage": null
+        },
+        "emissionStandard": "EURO6",
+        "emissionBadge": "GREEN",
+        "numberOfAxles": 2,
+        "wheelFormula": "FWD",
+        "numberOfSeats": 5,
+        "numberOfDoors": 5,
+        "width": 1793,
+        "height": 1469,
+        "length": 4362,
+        "serviceHistory": [],
+        "damages": [],
+        "damageImages": [],
+        "location": {
+            "audaris_id": "5d00b311b93e56771463ab76"
+        },
+        "locationName": "Heidenau",
+        "taxRate": 19,
+        "novaPaid": false,
+        "priceRetail": 32721.43,
+        "priceTransfer": null,
+        "priceDelivery": null,
+        "availableFrom": "2023-10-21",
+        "deliveryDays": 0,
+        "numberOfImages": 30,
+        "images": [
+            {
+                "audaris_id": "1702_64b8042280a6d7b5000c61ff__DSC05966 Kopie.jpg-start.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64b8042280a6d7b5000c61ff__DSC05966%20Kopie.jpg-start.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64b8042280a6d7b5000c61ff__DSC05966%20Kopie.jpg-start.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64b8042280a6d7b5000c61ff__DSC05966%20Kopie.jpg-start.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64b8042280a6d7b5000c61ff__DSC05966%20Kopie.jpg-start.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6b789c36a55d0953af__DSC05968 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953af__DSC05968%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953af__DSC05968%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953af__DSC05968%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953af__DSC05968%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6b789c36a55d0953b0__DSC05975 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b0__DSC05975%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b0__DSC05975%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b0__DSC05975%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b0__DSC05975%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6b789c36a55d0953b1__DSC05979 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b1__DSC05979%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b1__DSC05979%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b1__DSC05979%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b1__DSC05979%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6b789c36a55d0953b2__DSC05981 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b2__DSC05981%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b2__DSC05981%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b2__DSC05981%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b2__DSC05981%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6b789c36a55d0953b3__DSC05984 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b3__DSC05984%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b3__DSC05984%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b3__DSC05984%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b3__DSC05984%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6b789c36a55d0953b4__DSC05987 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b4__DSC05987%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b4__DSC05987%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b4__DSC05987%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6b789c36a55d0953b4__DSC05987%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953b5__DSC05989 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b5__DSC05989%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b5__DSC05989%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b5__DSC05989%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b5__DSC05989%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953b6__DSC05990 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b6__DSC05990%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b6__DSC05990%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b6__DSC05990%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b6__DSC05990%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953b7__DSC05963 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b7__DSC05963%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b7__DSC05963%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b7__DSC05963%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b7__DSC05963%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953b8__DSC05994 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b8__DSC05994%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b8__DSC05994%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b8__DSC05994%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b8__DSC05994%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953b9__DSC06016 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b9__DSC06016%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b9__DSC06016%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b9__DSC06016%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953b9__DSC06016%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953ba__DSC06046 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953ba__DSC06046%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953ba__DSC06046%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953ba__DSC06046%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953ba__DSC06046%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953bb__DSC06006 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953bb__DSC06006%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953bb__DSC06006%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953bb__DSC06006%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953bb__DSC06006%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953bc__DSC06000 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953bc__DSC06000%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953bc__DSC06000%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953bc__DSC06000%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953bc__DSC06000%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953bd__DSC06001 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953bd__DSC06001%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953bd__DSC06001%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953bd__DSC06001%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953bd__DSC06001%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953be__DSC06008 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953be__DSC06008%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953be__DSC06008%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953be__DSC06008%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953be__DSC06008%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953bf__DSC06007 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953bf__DSC06007%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953bf__DSC06007%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953bf__DSC06007%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953bf__DSC06007%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953c0__DSC06048 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c0__DSC06048%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c0__DSC06048%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c0__DSC06048%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c0__DSC06048%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953c1__DSC06038 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c1__DSC06038%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c1__DSC06038%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c1__DSC06038%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c1__DSC06038%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953c2__DSC06024 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c2__DSC06024%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c2__DSC06024%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c2__DSC06024%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c2__DSC06024%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953c3__DSC06012 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c3__DSC06012%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c3__DSC06012%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c3__DSC06012%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c3__DSC06012%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953c4__DSC06028 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c4__DSC06028%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c4__DSC06028%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c4__DSC06028%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c4__DSC06028%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953c5__DSC05998 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c5__DSC05998%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c5__DSC05998%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c5__DSC05998%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c5__DSC05998%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953c6__DSC06033 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c6__DSC06033%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c6__DSC06033%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c6__DSC06033%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c6__DSC06033%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953c7__DSC06031 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c7__DSC06031%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c7__DSC06031%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c7__DSC06031%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c7__DSC06031%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953c8__DSC06042 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c8__DSC06042%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c8__DSC06042%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c8__DSC06042%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c8__DSC06042%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953c9__DSC06052 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c9__DSC06052%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c9__DSC06052%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c9__DSC06052%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953c9__DSC06052%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953ca__DSC06055 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953ca__DSC06055%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953ca__DSC06055%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953ca__DSC06055%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953ca__DSC06055%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64e37e6c789c36a55d0953cb__DSC05988 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953cb__DSC05988%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953cb__DSC05988%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953cb__DSC05988%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64b67d31b470671a4e0b3598/1702_64e37e6c789c36a55d0953cb__DSC05988%20Kopie.jpg"
+            }
+        ],
+        "simplifiedTypes": [
+            "CAR"
+        ],
+        "categories": [
+            "CAR\\u001eLIMOUSINE"
+        ],
+        "priceConsumer": 26850,
+        "priceConsumerNet": 26850,
+        "priceDealer": 26850,
+        "priceDealerNet": 26850,
+        "paymentTypes": [
+            "CASH"
+        ],
+        "isSpecialOffer": false,
+        "priceNet": 26850,
+        "price": 26850,
+        "priceType": "CONSUMER"
+    },
+    {
+        "id": "23002",
+        "vin": "VF1AG000665780984",
+        "innerNumber": "ABS-141",
+        "hsn": "3333",
+        "tsn": "BMT",
+        "modelKey": "",
+        "manufacturer": {
+            "audaris_id": "5a5365184b464d30d4280488"
+        },
+        "model": {
+            "audaris_id": "5b83e3778a9a52302500247e"
+        },
+        "sourceCountry": null,
+        "modelYear": null,
+        "construction": null,
+        "manufacturerName": "Renault",
+        "modelName": "ZOE",
+        "isInStock": true,
+        "reservedUntil": null,
+        "usageState": "USED",
+        "usageTypes": [],
+        "vatMode": "STANDARD",
+        "numberOfOwners": 2,
+        "mileage": 14750,
+        "isRegistered": true,
+        "registration": "2021-06-29",
+        "hasNewInspection": false,
+        "oldInspectionValidUntil": "2024-06-01",
+        "hasWarranty": false,
+        "warrantySeal": null,
+        "isDamaged": false,
+        "title": "Riviera R135 Z.E.50*BATTERIE INKLUSIVE*LED*",
+        "description": {
+            "multiMedia": "Bordcomputer, Radio, DAB Receiver, Soundsystem, Freisprecheinrichtung, Bluetooth, USB Anschluss, Android Auto, Apple Car Play, Touchscreen, Sprachsteuerung, Multifunktionsanzeige, MP3-Schnittstelle, Gruppe Multimedia und Kommunikation.",
+            "security": "ABS, ESP, stability control, ASC (traction control), ASR (traction control), power steering, automatic start/stop system, light sensor, rain sensor, interior and exterior mirrors can be automatically dimmed, hill start assistant, emergency brake assistant (FA), lane keeping assistant, blind spot assistant, lane change assistant , fatigue warning, emergency call system, brake assistant (EBS), cruise control, speedometerLimitation system, electric immobilizer, driving profile selection (Drive Mode Select), rear parking aid, front parking aid, parking aid camera, driver/passenger airbag, driver airbag, passenger airbag can be switched off, front passenger airbag, side airbags, head airbags, surroundings monitoring system (front Assist). ",
+            "interior": "Central locking with radio, keyless entry, keyless go , coming home function, leaving home function, electrically adjustable exterior mirrors, heated exterior mirrors, manual folding exterior mirrors, electric windows, ambient lighting, upholstery fabric, heated front seats, sports seats, height-adjustable front seats , driver lumbar support, center armrest, ISOFIX on the passenger seat, child seat preparation (ISOFIX), divisible rear seat, 5 headrests, rear roller blind, cabin filter, leather gearshift lever, decorative strips, sports steering wheel, multifunction steering wheel, leather steering wheel, height-adjustable steering wheel, shift paddles on the steering wheel, 2-zone automatic climate control. ",
+            "extras": "Sports package, panoramic roof , colored glazing, darkened side/rear window, tailgate, heated rear window, through-loading option, roof spoiler, metallic, pearl effect, sports suspension, LM rims, summer tires, tire pressure control, automatic locking differential, LED daytime running lights, LED headlights, cornering/turning lights , fog lights, warranty, full service history, non-smoking vehicle, LED taillights. "
+        },
+        "interiorType": "LEATHER",
+        "interiorColorCode": "BEIGE",
+        "interiorColorName": "INNENAUSSTATTUNG 04",
+        "exteriorMetallic": true,
+        "exteriorPearlEffect": false,
+        "exteriorColorCode": "BLUE",
+        "exteriorColorName": "NACHTBLAU",
+        "equipment": [
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4ccd"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d8e"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cca"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d8a"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d01"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d1a"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4dac"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d14"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d7b"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4db2"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4ccf"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d8b"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4da3"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d26"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4caf"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cf2"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cb7"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4ce7"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cf1"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cb0"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d1c"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d99"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d00"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cf5"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d3d"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4daf"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d97"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d95"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d98"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d92"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4db3"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d51"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d52"
+            },
+            {
+                "audaris_id": "5d38508ab93e561fa1379276"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4ce8"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d88"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d23"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d21"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d20"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d22"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cba"
+            },
+            {
+                "audaris_id": "5ed6683ab93e564ef71edb16"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d83"
+            },
+            {
+                "audaris_id": "5ed668eab93e564eea3a9670"
+            },
+            {
+                "audaris_id": "5ed66942b93e564ef71edb4e"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cb4"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d89"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cfe"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cd4"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cfc"
+            },
+            {
+                "audaris_id": "6103b5eb1154ae4030685d5a"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cd1"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cda"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4ce5"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d11"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cf9"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d44"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cff"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d4b"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d03"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d28"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d29"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d86"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cb5"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4dab"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d6f"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cc4"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cc7"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d17"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d0b"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d1d"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4ce9"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cfb"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4cb2"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4ce3"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d63"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d12"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d1f"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d7e"
+            },
+            {
+                "audaris_id": "5b8fb919ae6dd939d60d4d7f"
+            }
+        ],
+        "weightEmpty": 1577,
+        "engineType": "ELECTRIC",
+        "enginePower": 100,
+        "electricEnginePower": null,
+        "numberOfCylinders": null,
+        "engineSize": null,
+        "isPluginHybrid": false,
+        "hybridType": null,
+        "hasRangeExtender": false,
+        "adBlue": false,
+        "maxSpeed": null,
+        "battery": {
+            "power": 52,
+            "chargingPowerAC": null,
+            "chargingPowerDC": null,
+            "voltage": null,
+            "chargingVoltage": null,
+            "chargingDuration": null,
+            "fastChargingVoltage": null,
+            "fastChargingDuration": null
+        },
+        "numberOfGears": null,
+        "gearboxType": "AUTOMATIC",
+        "nefz": {
+            "consumptionElectricity": 17.7,
+            "eaerRangeCombined": 385,
+            "eaerRangeInTown": 531
+        },
+        "wltp": {
+            "consumptionAverage": 17.7
+        },
+        "emissionStandard": null,
+        "emissionBadge": "GREEN",
+        "numberOfAxles": 2,
+        "wheelFormula": "FWD",
+        "numberOfSeats": 5,
+        "numberOfDoors": 5,
+        "width": 1787,
+        "height": 1562,
+        "length": 4087,
+        "serviceHistory": [],
+        "damages": [],
+        "damageImages": [],
+        "location": {
+            "audaris_id": "5d00b311b93e56771463ab76"
+        },
+        "locationName": "Heidenau",
+        "taxRate": 19,
+        "novaPaid": false,
+        "priceRetail": 40639.689999999995,
+        "priceTransfer": null,
+        "priceDelivery": null,
+        "availableFrom": "2023-09-06",
+        "deliveryDays": 0,
+        "numberOfImages": 30,
+        "images": [
+            {
+                "audaris_id": "1702_64f6eeeb7391d88f860c1c9c__DSC09582 Kopie.jpg-start.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeeb7391d88f860c1c9c__DSC09582%20Kopie.jpg-start.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeeb7391d88f860c1c9c__DSC09582%20Kopie.jpg-start.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeeb7391d88f860c1c9c__DSC09582%20Kopie.jpg-start.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeeb7391d88f860c1c9c__DSC09582%20Kopie.jpg-start.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeec7391d88f860c1c9d__DSC09584 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1c9d__DSC09584%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1c9d__DSC09584%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1c9d__DSC09584%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1c9d__DSC09584%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeec7391d88f860c1c9e__DSC09586 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1c9e__DSC09586%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1c9e__DSC09586%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1c9e__DSC09586%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1c9e__DSC09586%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeec7391d88f860c1c9f__DSC09587 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1c9f__DSC09587%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1c9f__DSC09587%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1c9f__DSC09587%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1c9f__DSC09587%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeec7391d88f860c1ca0__DSC09589 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca0__DSC09589%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca0__DSC09589%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca0__DSC09589%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca0__DSC09589%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeec7391d88f860c1ca1__DSC09591 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca1__DSC09591%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca1__DSC09591%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca1__DSC09591%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca1__DSC09591%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeec7391d88f860c1ca2__DSC09592 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca2__DSC09592%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca2__DSC09592%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca2__DSC09592%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca2__DSC09592%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeec7391d88f860c1ca3__DSC09595 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca3__DSC09595%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca3__DSC09595%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca3__DSC09595%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca3__DSC09595%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeec7391d88f860c1ca4__DSC09612 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca4__DSC09612%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca4__DSC09612%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca4__DSC09612%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca4__DSC09612%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeec7391d88f860c1ca5__DSC09621 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca5__DSC09621%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca5__DSC09621%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca5__DSC09621%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca5__DSC09621%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeec7391d88f860c1ca6__DSC09618 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca6__DSC09618%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca6__DSC09618%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca6__DSC09618%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca6__DSC09618%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeec7391d88f860c1ca7__DSC09616 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca7__DSC09616%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca7__DSC09616%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca7__DSC09616%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca7__DSC09616%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeec7391d88f860c1ca8__DSC09605 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca8__DSC09605%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca8__DSC09605%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca8__DSC09605%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca8__DSC09605%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeec7391d88f860c1ca9__DSC09606 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca9__DSC09606%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca9__DSC09606%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca9__DSC09606%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1ca9__DSC09606%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeec7391d88f860c1caa__DSC09609 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1caa__DSC09609%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1caa__DSC09609%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1caa__DSC09609%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1caa__DSC09609%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeec7391d88f860c1cab__DSC09610 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1cab__DSC09610%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1cab__DSC09610%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1cab__DSC09610%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeec7391d88f860c1cab__DSC09610%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeed7391d88f860c1cac__DSC09596 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cac__DSC09596%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cac__DSC09596%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cac__DSC09596%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cac__DSC09596%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeed7391d88f860c1cad__DSC09597 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cad__DSC09597%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cad__DSC09597%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cad__DSC09597%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cad__DSC09597%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeed7391d88f860c1cae__DSC09611 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cae__DSC09611%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cae__DSC09611%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cae__DSC09611%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cae__DSC09611%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeed7391d88f860c1caf__DSC09607 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1caf__DSC09607%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1caf__DSC09607%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1caf__DSC09607%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1caf__DSC09607%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeed7391d88f860c1cb0__DSC09598 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cb0__DSC09598%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cb0__DSC09598%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cb0__DSC09598%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cb0__DSC09598%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeed7391d88f860c1cb1__DSC09599 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cb1__DSC09599%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cb1__DSC09599%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cb1__DSC09599%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cb1__DSC09599%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeed7391d88f860c1cb2__DSC09601 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cb2__DSC09601%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cb2__DSC09601%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cb2__DSC09601%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeed7391d88f860c1cb2__DSC09601%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeee7391d88f860c1cb3__DSC09600 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb3__DSC09600%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb3__DSC09600%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb3__DSC09600%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb3__DSC09600%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeee7391d88f860c1cb4__DSC09603 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb4__DSC09603%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb4__DSC09603%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb4__DSC09603%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb4__DSC09603%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeee7391d88f860c1cb5__DSC09602 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb5__DSC09602%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb5__DSC09602%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb5__DSC09602%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb5__DSC09602%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeee7391d88f860c1cb6__DSC09594 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb6__DSC09594%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb6__DSC09594%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb6__DSC09594%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb6__DSC09594%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeee7391d88f860c1cb7__DSC09604 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb7__DSC09604%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb7__DSC09604%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb7__DSC09604%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb7__DSC09604%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeee7391d88f860c1cb8__DSC09619 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb8__DSC09619%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb8__DSC09619%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb8__DSC09619%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb8__DSC09619%20Kopie.jpg"
+            },
+            {
+                "audaris_id": "1702_64f6eeee7391d88f860c1cb9__DSC09593 Kopie.jpg",
+                "full": "https://bildon.audaris.icu/o/1600q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb9__DSC09593%20Kopie.jpg",
+                "web": "https://bildon.audaris.icu/o/800q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb9__DSC09593%20Kopie.jpg",
+                "card": "https://bildon.audaris.icu/o/400q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb9__DSC09593%20Kopie.jpg",
+                "thumb_240": "https://bildon.audaris.icu/o/240q75/1702/vehicles/64c7ac6a862a8e2d1e037fe6/1702_64f6eeee7391d88f860c1cb9__DSC09593%20Kopie.jpg"
+            }
+        ],
+        "simplifiedTypes": [
+            "CAR"
+        ],
+        "categories": [
+            "CAR\\u001eLIMOUSINE"
+        ],
+        "priceConsumer": 22989.999999999476,
+        "priceConsumerNet": 19319.327731092,
+        "priceDealer": 22989.999999999476,
+        "priceDealerNet": 19319.327731092,
+        "paymentTypes": [
+            "CASH"
+        ],
+        "isSpecialOffer": false,
+        "priceNet": 19319.327731092,
+        "price": 22989.999999999476,
+        "priceType": "CONSUMER"
+    }
+]

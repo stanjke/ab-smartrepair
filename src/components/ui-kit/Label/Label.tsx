@@ -20,7 +20,7 @@ const Label: FC<Props> = ({ text, onClick, id, theme = LabelTheme.DEFAULT, size 
   return (
     <span id={id} onClick={onClick} className={className}>
       {text}
-      <Cancel className={styles["label__icon"]} width="12" height="12" />
+      {/* <Cancel className={styles["label__icon"]} width="12" height="12" /> */}
     </span>
   );
 };

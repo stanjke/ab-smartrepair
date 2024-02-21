@@ -1,9 +1,9 @@
-// .container {
-//   margin: 0 auto;
-//   max-width: 1280px;
-//   padding: 20px;
+.custom-container {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 20px;
 
-//   @include mq("tablet") {
-//     width: 100%;
-//   }
-// }
+  @include mq("tablet") {
+    width: 100%;
+  }
+}

@@ -8,7 +8,7 @@ interface IContainerProps {
 }
 
 const Container = ({ children, className }: IContainerProps) => {
-  return <div className={classNames("container", className)}>{children}</div>;
+  return <div className={classNames("custom-container", className)}>{children}</div>;
 };
 
 export default Container;

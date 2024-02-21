@@ -2,20 +2,27 @@
   --tw-shadow: 0 4px 6px -1px #0000001a, 0 2px 4px -1px #0000000f;
 }
 
-// BREACKPOINTS:
-
-$breakpoints: (
-  "phone": 320px,
-  "tablet": 641px,
-  "desktop": 993px,
+//MAPS:
+$sectionTitle: (
+  fontSize: 22px,
+  fontWeight: 600,
 );
 
-//FONTS:
+// BREACKPOINTS:
+$breakpoints: (
+  "phone": 320px,
+  "tablet": 769px,
+  "desktop-xs": 993px,
+  "desktop": 1201px,
+);
 
+// MARGIN:
+$marginBetweenSections: 20px;
+
+//FONTS:
 $fontSize: 16px;
 
 // COLORS:
-
 $mainGray: #333333;
 $mainText: #ffffff;
 
@@ -24,6 +31,7 @@ $accentLightGray: #cccccc;
 $accentDarkGray: #666666;
 
 $secondarySuperLightGray: #f5f5f5;
+$secondaryLightGray: lightgrey;
 $secondaryMiddleGray: #999999;
 $secondaryDarkGray: #444444;
 
@@ -37,8 +45,9 @@ $LabelPrimaryBGColor: #e6f1ff;
 $LabelWarningColor: #ff7236;
 $LabelWarningBGColor: #fff1eb;
 
-// MIXINS:
+$borderSection: black;
 
+// MIXINS:
 @mixin mq($width, $type: min) {
   @if map_has_key($breakpoints, $width) {
     $width: map_get($breakpoints, $width);

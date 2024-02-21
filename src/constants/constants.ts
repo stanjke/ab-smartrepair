@@ -20,6 +20,17 @@ export enum CompanyDetails {
   WEBSITE = "http://ab-smartrepair.de",
 }
 
+export const COMPANY_SERVICES = [
+  "Innenraumreparatur jeden Schwierigkeiten und zwar Sitzreparatur, Himmel- und Bodenreparatur, Leder-, Stoff-, Kunststoffreparatur",
+  "Fahrzeuginnenaufbereitung",
+  "Lack-Maschinenpolitur",
+  "Lackinstandsetzung (Smart/Spot Repair)",
+  "Dellenenfernung ohne Lackieren",
+  "Felgenreparatur",
+  "Kfz-Scheibentönung",
+  "Lackschutzfolie/Steinschlagfolie",
+];
+
 export enum DeliveryStatus {
   IMMEDIATELY_AVAILABLE = "immediatelyAvailable",
   IN_STOCK_SOON = "inStockSoon",

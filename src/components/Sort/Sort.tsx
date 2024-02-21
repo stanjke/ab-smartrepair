@@ -1,6 +1,5 @@
 import { ChangeEvent } from "react";
 import Container from "../Container/Container";
-import { ReactComponent as Clock } from "./icons/clock.svg";
 import "./Sort.scss";
 import DropDown from "../DropDown/DropDown";
 import { useDispatch, useSelector } from "react-redux";
@@ -8,6 +7,7 @@ import { filteredCarsSelector } from "../../store/selectors/carsSelectors";
 import { SortTitle, sortingOptionTranslations } from "../../constants/constants";
 import { setSortAction } from "../../store/sort/sortSlice";
 import { convertToComplexObject } from "../../helpers/convertToComplexObject";
+import SortIcon from "../ui-kit/Icons/SortIcon";
 
 export interface IMocKFormSortData {
   text: string;
@@ -34,7 +34,7 @@ const Sort = () => {
             </h4>
           </div>
           <div className="content__sort-bar">
-            <DropDown formTitle={SortTitle.TITLE} options={convertToComplexObject(sortingOptionTranslations)} formIcon={<Clock />} onChange={handleSetSort} isComplex />
+            <DropDown formTitle={SortTitle.TITLE} options={convertToComplexObject(sortingOptionTranslations)} formIcon={<SortIcon />} onChange={handleSetSort} isComplex />
           </div>
         </div>
       </section>

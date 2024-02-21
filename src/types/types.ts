@@ -3,10 +3,13 @@ import { DeliveryStatus, EngineType, VehicleStatus } from "../constants/constant
 export interface ICar {
   id: number;
   vin: string;
+  bodyShape: string;
+  seatCount: number;
   innerNumber: string;
   hsn: number;
   tsn: string;
   modelKey: string;
+  carLocation: string;
   manufacturerName: string;
   manufacturerDate: string;
   state: VehicleStatus;
@@ -30,6 +33,10 @@ export interface ICar {
   consumptionElectricity: string;
   eaerRangeCombined: string;
   eaerRangeInTown: string;
+  multimedia: string;
+  safety: string;
+  comfort: string;
+  extra: string;
 }
 
 export interface IPriceRange {

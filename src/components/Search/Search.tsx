@@ -30,7 +30,7 @@ const Search: FC = () => {
   useEffect(() => {
     const newState = Object.entries(filters)
       .filter(([, value]) => value !== "")
-      .map(([key, value]) => <Label onClick={handleLabelClick} id={key} text={value} key={key} size={LabelSize.LARGE} theme={LabelTheme.PRIMARY} />);
+      .map(([key, value]) => <Label onClick={handleLabelClick} id={key} text={value} key={key} size={LabelSize.LARGE} theme={LabelTheme.SUCCESS} />);
     setLabel(newState);
   }, [filters]);
 

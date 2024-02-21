@@ -10,19 +10,16 @@
     text-decoration: none;
     color: black;
 
-    @include mq("desktop") {
+    @include mq("desktop-xs") {
       display: flex;
     }
   }
 
-  &__image-wrapper {
-    @include mq("tablet") {
-      width: 300px;
-    }
-    @include mq("desktop") {
-      width: 400px;
-    }
-  }
+  // &__image-wrapper {
+  //   @include mq("desktop-xs") {
+  //     width: 400px;
+  //   }
+  // }
 
   &__img {
     width: 100%;
@@ -30,11 +27,20 @@
   }
 
   &__details {
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-    border-left: 4px solid lightgreen;
-    padding: 0 10px;
+    width: 100%;
+    border-bottom: 4px solid lightgreen;
+    @include mq("tablet") {
+      display: flex;
+      flex-grow: 1;
+      align-items: center;
+
+      padding: 0 10px;
+    }
+
+    @include mq("desktop-xs") {
+      border-left: 4px solid lightgreen;
+      border-bottom: none;
+    }
   }
 
   &__content {
@@ -50,7 +56,10 @@
     font-size: 22px;
     font-weight: 500;
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    @include mq("tablet") {
+      margin-bottom: 20px;
+    }
 
     &:hover {
       color: $accentOrange;
@@ -58,9 +67,13 @@
   }
 
   &__title {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: $accentDarkGray;
     font-weight: 500;
+
+    @include mq("tablet") {
+      margin-bottom: 20px;
+    }
   }
 
   &__info {
@@ -92,6 +105,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding: 0 10px 10px 10px;
   }
 
   &__price {

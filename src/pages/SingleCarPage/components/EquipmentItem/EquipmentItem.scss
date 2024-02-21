@@ -1,0 +1,17 @@
+.car-page__equipment-item {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  font-size: 14px;
+  border-bottom: 1px solid $secondaryLightGray;
+
+  @include mq("tablet") {
+    width: calc(50% - 10px);
+  }
+
+  @include mq("desktop") {
+    width: calc(33.3333% - 10px);
+  }
+}
