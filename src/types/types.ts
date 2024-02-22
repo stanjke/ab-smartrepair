@@ -9,6 +9,7 @@ export interface ICar {
   hsn: number;
   tsn: string;
   modelKey: string;
+  hu: string;
   carLocation: string;
   manufacturerName: string;
   manufacturerDate: string;

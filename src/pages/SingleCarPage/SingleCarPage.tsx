@@ -200,7 +200,7 @@ const SingleCarPage = () => {
                 </li>
                 <li className="car-page__additional-item">
                   <h5 className="car-page__additional-prop">HU:</h5>
-                  <p className="car-page__additional-val">??? Узнать что это</p>
+                  <p className="car-page__additional-val">{decorator.date(carData?.hu)}</p>
                 </li>
                 <li className="car-page__additional-item">
                   <h5 className="car-page__additional-prop">Karosserieform:</h5>
