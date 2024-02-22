@@ -34,6 +34,7 @@ const Header: FC = () => {
             <img src="logo.png" alt="ab-smartrepair" className="header__logo" />
           </a>
         </div>
+        <h2 className="header__title">AB-SmartRepair-Showroom</h2>
       </header>
     </>
   );

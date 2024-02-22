@@ -36,7 +36,6 @@ const Filter = () => {
   return (
     <Container>
       <section className="filter ">
-        <h2 className="filter__title">AB-SmartRepair-Showroom</h2>
         <div className="filter__content">
           <div className="filter__manufactures">
             <Row>
